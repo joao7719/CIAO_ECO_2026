@@ -184,6 +184,3 @@ As funções completadas foram `bits_para_x`, `fitness` e `mutacao`. A conversã
 
 O AG procura uma boa aproximação do máximo global da função, que pode ser comparada com uma varredura numérica do intervalo. A solução encontrada pelo algoritmo deve ser interpretada como aproximada, pois a natureza aleatória dos operadores genéticos não garante o ótimo em todas as execuções.
 
-## Conclusão
-
-A Aula 3 mostrou como um algoritmo genético representa soluções, avalia indivíduos, seleciona pais, combina cromossomos, aplica mutações e preserva elites. Os experimentos também evidenciam que os parâmetros alteram o equilíbrio entre exploração e aproveitamento das melhores soluções.
