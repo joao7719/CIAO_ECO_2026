@@ -1,6 +1,3 @@
-# Resultados e considerações — Aula 3
-
-Este relatório reúne as execuções dos três laboratórios da Aula 3. As notebooks usam sementes aleatórias para tornar os resultados reproduzíveis; pequenas diferenças podem ocorrer quando os códigos são executados novamente sem a semente.
 
 ## Laboratório 1 — Algoritmo genético para x²
 
