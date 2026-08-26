@@ -19,7 +19,7 @@ Itens escolhidos:
  - Chocolate (peso: 1 , valor: 1 )
 ```
 
-A enumeração avaliou exatamente **32 soluções**, pois cada um dos cinco itens possui duas possibilidades: ser escolhido ou não ser escolhido. Assim, o espaço de busca é `2^5 = 32`. A melhor combinação encontrada tem valor 8 e respeita a capacidade de peso 5. Se o problema tivesse 15 itens, seriam `2^15 = 32.768` combinações; com o crescimento dos itens, a enumeração completa rapidamente se torna pouco prática.
+A enumeração avaliou exatamente **32 soluções**, pois cada um dos cinco itens possui duas possibilidades: ser escolhido ou não ser escolhido. Assim, o espaço de busca é `2^5 = 32`. A melhor combinação encontrada tem valor 9 e respeita a capacidade de peso 5. Se o problema tivesse 15 itens, seriam `2^15 = 32.768` combinações; com o crescimento dos itens, a enumeração completa rapidamente se torna pouco prática.
 
 Um problema cotidiano semelhante é montar uma lista de compras com orçamento limitado, escolhendo produtos que tragam maior utilidade sem ultrapassar o orçamento disponível.
 
@@ -59,7 +59,7 @@ OBSERVE: o numero de rotas cresce como (n-1)!  (fatorial)
 | Cidades | Rotas avaliadas | Melhor custo |
 |---:|---:|---:|
 | 4 | 6 | 80 |
-| 5 | 24 | 36 |
+| 5 | 24 | 41 |
 | 6 | 120 | 91 |
 
 A quantidade de rotas cresce de forma fatorial, pois o algoritmo avalia `(n-1)!` permutações. Isso é muito mais rápido do que um crescimento linear ou quadrático. Para 10 cidades, seriam 362.880 rotas; usando como referência o tempo observado para 6 cidades, a estimativa é obtida multiplicando o tempo por `362.880 / 120 = 3.024`, embora a medição real dependa do hardware e da implementação. Para 15 cidades, seriam 87.178.291.200 rotas, tornando a força-bruta inviável.
